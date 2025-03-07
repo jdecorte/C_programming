@@ -40,6 +40,28 @@ int main()
 	}
 	showBinary(number);
 
+	switch (choice)
+	{
+	case 1: // set bit
+		number = number;
+		break;
+	case 2: // clear bit
+		number = number;
+		break;
+	case 3: // read bit
+		number = number;
+		break;
+	case 4: // toggle bit
+		number = number;
+		break;
+	default:
+		printf("Invalid choice\n");
+		break;
+	};
+
+	printf("The new number is: %d\n", number);
+	printf("The binary version of the new number is:");
+	showBinary(number);
 
 	return 0;
 	}
